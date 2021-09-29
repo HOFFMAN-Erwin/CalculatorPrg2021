@@ -50,9 +50,11 @@
             // 
             // tbDisplay
             // 
+            this.tbDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbDisplay.Location = new System.Drawing.Point(13, 13);
             this.tbDisplay.Multiline = true;
             this.tbDisplay.Name = "tbDisplay";
+            this.tbDisplay.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.tbDisplay.Size = new System.Drawing.Size(162, 40);
             this.tbDisplay.TabIndex = 0;
             // 
@@ -267,7 +269,7 @@
             this.Controls.Add(this.btnSuma);
             this.Controls.Add(this.tbDisplay);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculadora";
             this.ResumeLayout(false);
             this.PerformLayout();
 
